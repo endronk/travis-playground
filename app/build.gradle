@@ -44,6 +44,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
+// Print each test result on the terminal, e.g. PASSED, FAILED
 tasks.withType(Test) {
     testLogging {
         exceptionFormat "full"
