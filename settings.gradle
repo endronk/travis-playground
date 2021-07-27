@@ -1,2 +1,3 @@
 rootProject.name = "Travis Playground"
 include ':app'
+include ':testlibrary'
